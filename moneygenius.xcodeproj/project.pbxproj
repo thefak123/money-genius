@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */; };
+		0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE162A00C3FE001EAAEE /* ContentView.swift */; };
+		0498FE192A00C400001EAAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE182A00C400001EAAEE /* Assets.xcassets */; };
+		0498FE1C2A00C400001EAAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */; };
+		0498FE262A00C400001EAAEE /* moneygeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE252A00C400001EAAEE /* moneygeniusTests.swift */; };
+		0498FE302A00C400001EAAEE /* moneygeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */; };
+		0498FE322A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0498FE222A00C400001EAAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0498FE092A00C3FE001EAAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0498FE102A00C3FE001EAAEE;
+			remoteInfo = moneygenius;
+		};
+		0498FE2C2A00C400001EAAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0498FE092A00C3FE001EAAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0498FE102A00C3FE001EAAEE;
+			remoteInfo = moneygenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0498FE112A00C3FE001EAAEE /* moneygenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneygenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusApp.swift; sourceTree = "<group>"; };
+		0498FE162A00C3FE001EAAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0498FE182A00C400001EAAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0498FE212A00C400001EAAEE /* moneygeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneygeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498FE252A00C400001EAAEE /* moneygeniusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusTests.swift; sourceTree = "<group>"; };
+		0498FE2B2A00C400001EAAEE /* moneygeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneygeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITests.swift; sourceTree = "<group>"; };
+		0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0498FE0E2A00C3FE001EAAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE1E2A00C400001EAAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE282A00C400001EAAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0498FE082A00C3FE001EAAEE = {
+			isa = PBXGroup;
+			children = (
+				0498FE132A00C3FE001EAAEE /* moneygenius */,
+				0498FE242A00C400001EAAEE /* moneygeniusTests */,
+				0498FE2E2A00C400001EAAEE /* moneygeniusUITests */,
+				0498FE122A00C3FE001EAAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0498FE122A00C3FE001EAAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0498FE112A00C3FE001EAAEE /* moneygenius.app */,
+				0498FE212A00C400001EAAEE /* moneygeniusTests.xctest */,
+				0498FE2B2A00C400001EAAEE /* moneygeniusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0498FE132A00C3FE001EAAEE /* moneygenius */ = {
+			isa = PBXGroup;
+			children = (
+				0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */,
+				0498FE162A00C3FE001EAAEE /* ContentView.swift */,
+				0498FE182A00C400001EAAEE /* Assets.xcassets */,
+				0498FE1A2A00C400001EAAEE /* Preview Content */,
+			);
+			path = moneygenius;
+			sourceTree = "<group>";
+		};
+		0498FE1A2A00C400001EAAEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0498FE242A00C400001EAAEE /* moneygeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				0498FE252A00C400001EAAEE /* moneygeniusTests.swift */,
+			);
+			path = moneygeniusTests;
+			sourceTree = "<group>";
+		};
+		0498FE2E2A00C400001EAAEE /* moneygeniusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */,
+				0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */,
+			);
+			path = moneygeniusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0498FE102A00C3FE001EAAEE /* moneygenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498FE352A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygenius" */;
+			buildPhases = (
+				0498FE0D2A00C3FE001EAAEE /* Sources */,
+				0498FE0E2A00C3FE001EAAEE /* Frameworks */,
+				0498FE0F2A00C3FE001EAAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moneygenius;
+			productName = moneygenius;
+			productReference = 0498FE112A00C3FE001EAAEE /* moneygenius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0498FE202A00C400001EAAEE /* moneygeniusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498FE382A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygeniusTests" */;
+			buildPhases = (
+				0498FE1D2A00C400001EAAEE /* Sources */,
+				0498FE1E2A00C400001EAAEE /* Frameworks */,
+				0498FE1F2A00C400001EAAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0498FE232A00C400001EAAEE /* PBXTargetDependency */,
+			);
+			name = moneygeniusTests;
+			productName = moneygeniusTests;
+			productReference = 0498FE212A00C400001EAAEE /* moneygeniusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0498FE2A2A00C400001EAAEE /* moneygeniusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498FE3B2A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygeniusUITests" */;
+			buildPhases = (
+				0498FE272A00C400001EAAEE /* Sources */,
+				0498FE282A00C400001EAAEE /* Frameworks */,
+				0498FE292A00C400001EAAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0498FE2D2A00C400001EAAEE /* PBXTargetDependency */,
+			);
+			name = moneygeniusUITests;
+			productName = moneygeniusUITests;
+			productReference = 0498FE2B2A00C400001EAAEE /* moneygeniusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0498FE092A00C3FE001EAAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0498FE102A00C3FE001EAAEE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0498FE202A00C400001EAAEE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0498FE102A00C3FE001EAAEE;
+					};
+					0498FE2A2A00C400001EAAEE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0498FE102A00C3FE001EAAEE;
+					};
+				};
+			};
+			buildConfigurationList = 0498FE0C2A00C3FE001EAAEE /* Build configuration list for PBXProject "moneygenius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0498FE082A00C3FE001EAAEE;
+			productRefGroup = 0498FE122A00C3FE001EAAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0498FE102A00C3FE001EAAEE /* moneygenius */,
+				0498FE202A00C400001EAAEE /* moneygeniusTests */,
+				0498FE2A2A00C400001EAAEE /* moneygeniusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0498FE0F2A00C3FE001EAAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498FE1C2A00C400001EAAEE /* Preview Assets.xcassets in Resources */,
+				0498FE192A00C400001EAAEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE1F2A00C400001EAAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE292A00C400001EAAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0498FE0D2A00C3FE001EAAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */,
+				0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE1D2A00C400001EAAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498FE262A00C400001EAAEE /* moneygeniusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498FE272A00C400001EAAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498FE322A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift in Sources */,
+				0498FE302A00C400001EAAEE /* moneygeniusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0498FE232A00C400001EAAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0498FE102A00C3FE001EAAEE /* moneygenius */;
+			targetProxy = 0498FE222A00C400001EAAEE /* PBXContainerItemProxy */;
+		};
+		0498FE2D2A00C400001EAAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0498FE102A00C3FE001EAAEE /* moneygenius */;
+			targetProxy = 0498FE2C2A00C400001EAAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0498FE332A00C400001EAAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0498FE342A00C400001EAAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0498FE362A00C400001EAAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygenius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0498FE372A00C400001EAAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygenius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0498FE392A00C400001EAAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygeniusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneygenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moneygenius";
+			};
+			name = Debug;
+		};
+		0498FE3A2A00C400001EAAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygeniusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneygenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moneygenius";
+			};
+			name = Release;
+		};
+		0498FE3C2A00C400001EAAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygeniusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moneygenius;
+			};
+			name = Debug;
+		};
+		0498FE3D2A00C400001EAAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygeniusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moneygenius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0498FE0C2A00C3FE001EAAEE /* Build configuration list for PBXProject "moneygenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498FE332A00C400001EAAEE /* Debug */,
+				0498FE342A00C400001EAAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498FE352A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498FE362A00C400001EAAEE /* Debug */,
+				0498FE372A00C400001EAAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498FE382A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498FE392A00C400001EAAEE /* Debug */,
+				0498FE3A2A00C400001EAAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498FE3B2A00C400001EAAEE /* Build configuration list for PBXNativeTarget "moneygeniusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498FE3C2A00C400001EAAEE /* Debug */,
+				0498FE3D2A00C400001EAAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0498FE092A00C3FE001EAAEE /* Project object */;
+}
