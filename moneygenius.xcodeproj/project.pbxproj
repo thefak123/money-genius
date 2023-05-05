@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04267FCF2A049963007D70CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FCE2A049963007D70CD /* HomeView.swift */; };
+		04267FD12A049975007D70CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD02A049975007D70CD /* ProfileView.swift */; };
+		04267FD32A049996007D70CD /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD22A049996007D70CD /* StatisticView.swift */; };
+		04267FD52A0499C9007D70CD /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD42A0499C9007D70CD /* NavigationView.swift */; };
 		0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */; };
 		0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE162A00C3FE001EAAEE /* ContentView.swift */; };
 		0498FE192A00C400001EAAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE182A00C400001EAAEE /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04267FCE2A049963007D70CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04267FD02A049975007D70CD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04267FD22A049996007D70CD /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		04267FD42A0499C9007D70CD /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		0498FE112A00C3FE001EAAEE /* moneygenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneygenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusApp.swift; sourceTree = "<group>"; };
 		0498FE162A00C3FE001EAAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +102,14 @@
 		0498FE132A00C3FE001EAAEE /* moneygenius */ = {
 			isa = PBXGroup;
 			children = (
+				04267FD42A0499C9007D70CD /* NavigationView.swift */,
 				0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */,
 				0498FE162A00C3FE001EAAEE /* ContentView.swift */,
 				0498FE182A00C400001EAAEE /* Assets.xcassets */,
 				0498FE1A2A00C400001EAAEE /* Preview Content */,
+				04267FCE2A049963007D70CD /* HomeView.swift */,
+				04267FD02A049975007D70CD /* ProfileView.swift */,
+				04267FD22A049996007D70CD /* StatisticView.swift */,
 			);
 			path = moneygenius;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04267FD12A049975007D70CD /* ProfileView.swift in Sources */,
+				04267FD32A049996007D70CD /* StatisticView.swift in Sources */,
+				04267FCF2A049963007D70CD /* HomeView.swift in Sources */,
 				0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */,
+				04267FD52A0499C9007D70CD /* NavigationView.swift in Sources */,
 				0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
-				DEVELOPMENT_TEAM = 65MU3RV28U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uc.moneygenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
-				DEVELOPMENT_TEAM = 65MU3RV28U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ucexerciseweek.moneygenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uc.moneygenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
