@@ -11,6 +11,7 @@
 		04267FD12A049975007D70CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD02A049975007D70CD /* ProfileView.swift */; };
 		04267FD32A049996007D70CD /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD22A049996007D70CD /* StatisticView.swift */; };
 		04267FD52A0499C9007D70CD /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04267FD42A0499C9007D70CD /* NavigationView.swift */; };
+		044ACA772A09DA5B00473D08 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 044ACA752A09DA5B00473D08 /* Model.xcdatamodeld */; };
 		0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */; };
 		0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE162A00C3FE001EAAEE /* ContentView.swift */; };
 		0498FE192A00C400001EAAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE182A00C400001EAAEE /* Assets.xcassets */; };
@@ -18,6 +19,9 @@
 		0498FE262A00C400001EAAEE /* moneygeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE252A00C400001EAAEE /* moneygeniusTests.swift */; };
 		0498FE302A00C400001EAAEE /* moneygeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */; };
 		0498FE322A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */; };
+		04EBC3CA2A09DD66006F85F4 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3C82A09DD66006F85F4 /* User+CoreDataClass.swift */; };
+		04EBC3CB2A09DD66006F85F4 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3C92A09DD66006F85F4 /* User+CoreDataProperties.swift */; };
+		04EBC3CD2A09DEA9006F85F4 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3CC2A09DEA9006F85F4 /* PersistanceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,7 @@
 		04267FD02A049975007D70CD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		04267FD22A049996007D70CD /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		04267FD42A0499C9007D70CD /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		044ACA762A09DA5B00473D08 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		0498FE112A00C3FE001EAAEE /* moneygenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneygenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusApp.swift; sourceTree = "<group>"; };
 		0498FE162A00C3FE001EAAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +57,9 @@
 		0498FE2B2A00C400001EAAEE /* moneygeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneygeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITests.swift; sourceTree = "<group>"; };
 		0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04EBC3C82A09DD66006F85F4 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04EBC3C92A09DD66006F85F4 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04EBC3CC2A09DEA9006F85F4 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 		0498FE132A00C3FE001EAAEE /* moneygenius */ = {
 			isa = PBXGroup;
 			children = (
+				04EBC3C82A09DD66006F85F4 /* User+CoreDataClass.swift */,
+				04EBC3C92A09DD66006F85F4 /* User+CoreDataProperties.swift */,
 				04267FD42A0499C9007D70CD /* NavigationView.swift */,
 				0498FE142A00C3FE001EAAEE /* moneygeniusApp.swift */,
 				0498FE162A00C3FE001EAAEE /* ContentView.swift */,
@@ -109,7 +119,9 @@
 				0498FE1A2A00C400001EAAEE /* Preview Content */,
 				04267FCE2A049963007D70CD /* HomeView.swift */,
 				04267FD02A049975007D70CD /* ProfileView.swift */,
+				044ACA752A09DA5B00473D08 /* Model.xcdatamodeld */,
 				04267FD22A049996007D70CD /* StatisticView.swift */,
+				04EBC3CC2A09DEA9006F85F4 /* PersistanceController.swift */,
 			);
 			path = moneygenius;
 			sourceTree = "<group>";
@@ -272,9 +284,13 @@
 				04267FD12A049975007D70CD /* ProfileView.swift in Sources */,
 				04267FD32A049996007D70CD /* StatisticView.swift in Sources */,
 				04267FCF2A049963007D70CD /* HomeView.swift in Sources */,
+				044ACA772A09DA5B00473D08 /* Model.xcdatamodeld in Sources */,
 				0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */,
+				04EBC3CD2A09DEA9006F85F4 /* PersistanceController.swift in Sources */,
 				04267FD52A0499C9007D70CD /* NavigationView.swift in Sources */,
+				04EBC3CA2A09DD66006F85F4 /* User+CoreDataClass.swift in Sources */,
 				0498FE152A00C3FE001EAAEE /* moneygeniusApp.swift in Sources */,
+				04EBC3CB2A09DD66006F85F4 /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uc.moneygenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpuc.moneygenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"moneygenius/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -475,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uc.moneygenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpuc.moneygenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -599,6 +615,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		044ACA752A09DA5B00473D08 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				044ACA762A09DA5B00473D08 /* Model.xcdatamodel */,
+			);
+			currentVersion = 044ACA762A09DA5B00473D08 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0498FE092A00C3FE001EAAEE /* Project object */;
 }
