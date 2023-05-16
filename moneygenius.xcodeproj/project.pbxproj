@@ -16,9 +16,6 @@
 		0498FE172A00C3FE001EAAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE162A00C3FE001EAAEE /* ContentView.swift */; };
 		0498FE192A00C400001EAAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE182A00C400001EAAEE /* Assets.xcassets */; };
 		0498FE1C2A00C400001EAAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */; };
-		0498FE262A00C400001EAAEE /* moneygeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE252A00C400001EAAEE /* moneygeniusTests.swift */; };
-		0498FE302A00C400001EAAEE /* moneygeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */; };
-		0498FE322A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */; };
 		04EBC3CA2A09DD66006F85F4 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3C82A09DD66006F85F4 /* User+CoreDataClass.swift */; };
 		04EBC3CB2A09DD66006F85F4 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3C92A09DD66006F85F4 /* User+CoreDataProperties.swift */; };
 		04EBC3CD2A09DEA9006F85F4 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC3CC2A09DEA9006F85F4 /* PersistanceController.swift */; };
@@ -53,10 +50,7 @@
 		0498FE182A00C400001EAAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0498FE212A00C400001EAAEE /* moneygeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneygeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498FE252A00C400001EAAEE /* moneygeniusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusTests.swift; sourceTree = "<group>"; };
 		0498FE2B2A00C400001EAAEE /* moneygeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneygeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITests.swift; sourceTree = "<group>"; };
-		0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneygeniusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04EBC3C82A09DD66006F85F4 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		04EBC3C92A09DD66006F85F4 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		04EBC3CC2A09DEA9006F85F4 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
@@ -91,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				0498FE132A00C3FE001EAAEE /* moneygenius */,
-				0498FE242A00C400001EAAEE /* moneygeniusTests */,
-				0498FE2E2A00C400001EAAEE /* moneygeniusUITests */,
 				0498FE122A00C3FE001EAAEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,23 +124,6 @@
 				0498FE1B2A00C400001EAAEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0498FE242A00C400001EAAEE /* moneygeniusTests */ = {
-			isa = PBXGroup;
-			children = (
-				0498FE252A00C400001EAAEE /* moneygeniusTests.swift */,
-			);
-			path = moneygeniusTests;
-			sourceTree = "<group>";
-		};
-		0498FE2E2A00C400001EAAEE /* moneygeniusUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0498FE2F2A00C400001EAAEE /* moneygeniusUITests.swift */,
-				0498FE312A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift */,
-			);
-			path = moneygeniusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0498FE262A00C400001EAAEE /* moneygeniusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0498FE322A00C400001EAAEE /* moneygeniusUITestsLaunchTests.swift in Sources */,
-				0498FE302A00C400001EAAEE /* moneygeniusUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
